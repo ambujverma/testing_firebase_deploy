@@ -20,7 +20,7 @@ header{
 }
 header.sticky{
     background: #fff;
-    padding: 20px 100px;
+    padding: 20px 50px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 header .logo{
