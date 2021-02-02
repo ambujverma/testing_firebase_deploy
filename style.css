@@ -144,7 +144,7 @@ img{
     background: #2196f3;
 }
 .Skills .content .SkillsBx img{
-    max-width: 90px;
+    max-width: 60px;
     filter: invert(1);
 }
 .Skills .content .SkillsBx h2{
@@ -170,7 +170,7 @@ img{
     padding: 20px;
     background: #f7f7f7;
     color: #111;
-    width:45%;
+    width:48%;
     margin:10px;
     text-align: left;
     transition: 0.5s;
