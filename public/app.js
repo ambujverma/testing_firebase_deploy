@@ -14,17 +14,17 @@ function toggleMenu(){
 
 
 
-// Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyB3291Ys4E33hhkQgXcXdRKayZwuy5BRgY",
-    authDomain: "portfoliocontactform-9f96f.firebaseapp.com",
-    projectId: "portfoliocontactform-9f96f",
-    storageBucket: "portfoliocontactform-9f96f.appspot.com",
-    messagingSenderId: "642349320364",
-    appId: "1:642349320364:web:99552b7d569e564470b709"
+    apiKey: "AIzaSyAJ29MMeXXGiagELRKKPU3EvMKSFlqhXiI",
+    authDomain: "portfolio-df8e6.firebaseapp.com",
+    databaseURL: "https://portfolio-df8e6-default-rtdb.firebaseio.com",
+    projectId: "portfolio-df8e6",
+    storageBucket: "portfolio-df8e6.appspot.com",
+    messagingSenderId: "904770129751",
+    appId: "1:904770129751:web:13c72cde8f9a7f37783812"
   };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 
 // reference contactInfo collections
