@@ -203,12 +203,12 @@
                 </div>
             </div>
             <div class="formBx">
-                <form action="">
+                <form id="contact-form" method="POST">
                     <h3>Mesage Me</h3>
-                    <input type="text" name="" placeholder="Full Name">
-                    <input type="text" name="" placeholder="Email">
-                    <textarea placeholder="Your meassage"></textarea>
-                    <input type="submit" name="" id="" value="Send">
+                    <input class="name" type="text" name="" placeholder="Full Name">
+                    <input class="email" type="email" name="" placeholder="Email">
+                    <textarea class="message" placeholder="Your meassage"></textarea>
+                    <input type="submit" value="Send">
                 </form>
             </div>
         </div>
@@ -216,20 +216,8 @@
     <div class="copyright">
         <p>copyright @ Ambuj verma. All Right Reserved.</p>
     </div>
-
-    <script type="text/javascript">
-        window.addEventListener('scroll',function(){
-            var header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY>0);
-        });
-
-        function toggleMenu(){
-            var menuToggle = document.querySelector('.toggle');
-            var menu = document.querySelector('.menu');
-            menuToggle.classList.toggle('active');
-            menu.classList.toggle('active');
-        }
-    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase.js"></script>
+    <script src="app.js"></script>
 
     
 </body>
