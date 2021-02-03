@@ -31,7 +31,7 @@ var firebaseConfig = {
 let contactInfo = firebase.database().ref("Infos");
 
 // Listen for a submit
-document.querySelector(".formBx").addEventListener("submit", submitform);
+// document.querySelector(".formBx").addEventListener("submit", submitform);
 
 function submitform(){
 
